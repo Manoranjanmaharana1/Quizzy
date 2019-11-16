@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity2"
+    android:background="@drawable/nav7"
+    tools:ignore="InvalidId">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:text=""
+        android:layout_width="327sp"
+        android:layout_height="629sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/instruct"
+        android:ems="10"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276sp"
+        android:layout_height="55sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31sp"
+        android:background="@drawable/button_new"
+        android:fontFamily="sans-serif"
+        android:text="Play"
+        android:textAllCaps="false"
+        android:textColor="#0B0B61"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:fontFamily="monospace"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/instruction"
+        android:textColor="#FF0040"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
